@@ -1,5 +1,9 @@
 # arweaveNewsPermafeed
-Create a news headline permafeed
+The bot retrieves news headlines by keyword from newsapi.org 
+
+Current Keywords = sports, breaking  
+
+Data is archived at this address [iie7jUhFrlN4sV8UppcI7Fc5mN07XDvvgQ0R53fugcU](https://viewblock.io/arweave/address/iie7jUhFrlN4sV8UppcI7Fc5mN07XDvvgQ0R53fugcU)
 
 # Requirements
 An api key from [newsapi.org](https://www.newsapi.org)
