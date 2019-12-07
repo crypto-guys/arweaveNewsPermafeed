@@ -24,3 +24,58 @@ Specify wallet, api key, run schedule, and keyword
 
 This will automatically schedule the bot either hourly, twice daily, or daily
 
+# Examples
+# ALL
+    {
+    op: 'and',
+    expr1: {
+    op: 'equals',
+    expr1: 'from',
+    expr2: 'iie7jUhFrlN4sV8UppcI7Fc5mN07XDvvgQ0R53fugcU'
+    },
+    expr2: {
+    op: 'equals',
+    expr1: 'App-Name',
+    expr2: 'permaNewsfeed'
+    }
+    }
+    
+# Breaking headlines
+    {
+    op: 'and',
+    expr1: {
+    op: 'equals',
+    expr1: 'from',
+    expr2: 'iie7jUhFrlN4sV8UppcI7Fc5mN07XDvvgQ0R53fugcU'
+    },
+    expr2: {
+    op: 'equals',
+    expr1: 'App-Name',
+    expr2: 'permaNewsfeed'
+    },
+    expr3: {
+    op: 'equals',
+    expr1: 'keyword',
+    expr2: 'breaking'
+    }
+    }
+    
+# Sports headlines
+    {
+    op: 'and',
+    expr1: {
+    op: 'equals',
+    expr1: 'from',
+    expr2: 'iie7jUhFrlN4sV8UppcI7Fc5mN07XDvvgQ0R53fugcU'
+    },
+    expr2: {
+    op: 'equals',
+    expr1: 'App-Name',
+    expr2: 'permaNewsfeed'
+    },
+    expr3: {
+    op: 'equals',
+    expr1: 'keyword',
+    expr2: 'sports'
+    }
+    }
