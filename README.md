@@ -1,8 +1,6 @@
 # arweaveNewsPermafeed
 The bot retrieves news headlines by keyword from newsapi.org 
 
-Current Keywords = sports, breaking  
-
 Data is archived at this address [iie7jUhFrlN4sV8UppcI7Fc5mN07XDvvgQ0R53fugcU](https://viewblock.io/arweave/address/iie7jUhFrlN4sV8UppcI7Fc5mN07XDvvgQ0R53fugcU)
 
 # Requirements
@@ -23,6 +21,16 @@ run ./config.sh to configure the bot.
 Specify wallet, api key, run schedule, and keyword
 
 This will automatically schedule the bot either hourly, twice daily, or daily
+
+I am currently archiving results for these keywords = sports, breaking  
+
+# Update 12-11-2019
+It looks like the newsapi service has stopped providing new results. Newsapi.org has been notified. The script was modified to abort if no results were obtained so it will appear as though the script has stopped running. New data will be posted to arweave once the api service is functioning again.
+
+https://newsapi.org/v2/everything?apiKey=d2da966fd1d44b02a1bf6c3f8c3def53&q=world&from=2019-12-11
+
+Provides no results at this time.
+
 
 # Examples
 # ALL
