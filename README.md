@@ -31,6 +31,8 @@ https://newsapi.org/v2/everything?apiKey=d2da966fd1d44b02a1bf6c3f8c3def53&q=worl
 
 Provides no results at this time.
 
+# Update
+About 6 hours after I sent an email to newsapi.org the service started working again. No response from newsapi.org at all ever.
 
 # Examples
 # ALL
