@@ -49,9 +49,9 @@ $daily_time = $daily->format('H:i:s');
 $daily_formatted_time = $daily_date . $addT . $daily_time;
 $schedule = $settings['schedule'];
 
-if ($schedule = '1') {
+if ($schedule == '1') {
   $schedule_time = $hourly_formatted_time;
-  } elseif ($schedule = '2') {
+  } elseif ($schedule == '2') {
     $schedule_time = $halfday_formatted_time;
   } else {
     $schedule_time = $daily_formatted_time;
@@ -105,7 +105,7 @@ $total_results = $decoded_response['totalResults'];
   if (!is_array($decoded_response)) {
      die('Curl Response was invalid');
   }
-  if ($total_results = "0") {
+  if ($total_results == "0") {
 	die('Error: No articles returned by api');
   }
 
